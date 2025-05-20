@@ -382,6 +382,49 @@
             Height: 100%;
             Object-fit: cover;}
             
+            .movies-container {
+    grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+  }
+            @media (max-width: 472px) {
+  .newsletter form .email {
+    width: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .movies-container {
+    grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+  }
+}
+
+@media (max-width: 370px) {
+  header {
+    padding: 6px 4%;
+  }
+
+  .home-text h1 {
+    font-size: 1.7rem;
+  }
+
+  .play {
+    right: 2rem;
+    bottom: 8%;
+  }
+
+  .play .bx {
+    padding: 7px;
+  }
+  
+  .box  .box-img{
+    height: 270px;
+  }
+}
+
+            
     </style>
 
   <header>
